@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile - Recipe Sharing Platform</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #444;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        main {
+            padding: 20px;
+        }
+        section {
+            margin-bottom: 30px;
+        }
+        .profile-info {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .profile-info h2 {
+            margin-bottom: 10px;
+        }
+        .profile-info p {
+            margin-bottom: 20px;
+        }
+        .profile-info table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .profile-info th,
+        .profile-info td {
+            padding: 8px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        .profile-info th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Recipe Sharing Platform</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="browse_recipes.html">Browse Recipes</a></li>
+            <li><a href="search.html">Search</a></li>
+            <li><a href="submit_recipe.html">Submit Recipe</a></li>
+            <li><a href="user_profile.html">User Profile</a></li>
+            <li><a href="about.html">About</a></li>
+
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <div class="profile-info">
+                <h2>User Profile</h2>
+                <p>Welcome back, User123!</p>
+                <h3>Account Information</h3>
+                <table>
+                    <tr>
+                        <th>Username</th>
+                        <td>User123</td>
+                    </tr>
+                    <tr>
+                        <th>Email</th>
+                        <td>user123@gmail.com</td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Recipe Sharing Platform</p>
+    </footer>
+</body>
+</html>

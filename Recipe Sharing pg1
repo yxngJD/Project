@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Sharing Platform - Home</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #444;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        main {
+            padding: 20px;
+        }
+        section {
+            margin-bottom: 30px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .recipe {
+            background-color: #fff;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Recipe Sharing Platform</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="browse_recipes.html">Browse Recipes</a></li>
+            <li><a href="search.html">Search</a></li>
+            <li><a href="submit_recipe.html">Submit Recipe</a></li>
+            <li><a href="user_profile.html">User Profile</a></li>
+            <li><a href="about.html">About</a></li>
+
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <h2>Featured Recipes</h2>
+            <div class="recipe">
+                <h3>Crispy Baked Chicken</h3>
+                <p>This crispy chicken is made in the oven without any breading at all; the only ingredients you need are the chicken, a drizzle of oil, salt, and pepper.</p>
+            </div>
+            <div class="recipe">
+                <h3>Italian Pasta Bake</h3>
+                <p>The general idea here is cook the pasta half way, mix it with all the other ingredients then bake at 350F covered for 30 to 45 minutes or until done.
+
+                </p>
+            </div>
+            <div class="recipe">
+                <h3>Zucchini Boats</h3>
+                <p>Zucchini Boats stuffed with turkey sausage, tomatoes, herbs, panko and two types of cheese! </p>
+            </div>
+            <div class="recipe">
+                <h3>Instant Pot Sesame Chicken</h3>
+                <p> Instant Pot sesame chicken cooked in a rich honey soy sauce. This Chinese classic is made so easy </p>
+            </div>
+            <div class="recipe">
+                <h3>Broccoli Cheddar Soup</h3>
+                <p> A soup of pureed broccoli and broth with cheese. A</p>
+            </div>
+            <div class="recipe">
+                <h3>Creamy Dill Sauce for Salmon</h3>
+                <p>Dinner on the table in 15 minutes! Creamy Dill Sauce for salmon or trout is made with sour cream so it’s light and refreshing, and loaded with lovely fresh dill and lemon flavours.</p>
+            </div>
+            <div class="recipe">
+                <h3>Lemon Shrimp with Parmesan Rice</h3>
+                <p>creamy lemon parmesan shrimp is a gourmet meal! only minutes to make and full of lemon parmesan flavours with a good kick </p>
+            </div>
+            <div class="recipe">
+                <h3>Traditional Lasagna</h3>
+                <p>Traditional lasagna is a classic Italian dish made with layers of wide, flat pasta noodles, rich tomato sauce.</p>
+            </div>
+            <div class="recipe">
+                <h3>Pineapple Coconut Cake</h3>
+                <p>Pineapple coconut cake is a delicious dessert that combines the tropical flavors of juicy pineapples and sweet coconuts. </p>
+            </div>
+            <div class="recipe">
+                <h3>Basic Banana Muffins</h3>
+                <p>Basic banana muffins are moist and tender muffins made with ripe bananas, flour, sugar, milk, eggs, vegetable oil, baking powder, and vanilla extract. </p>
+            </div>
+            <div class="recipe">
+                <h3>Peanut Butter Chocolate Dessert</h3>
+                <p>It is creamy peanut butter combined with cream cheese and whipped topping.</p>
+            </div>
+        </section>
+        <section>
+            <h2>Trending Recipes</h2>
+            <div class="recipe">
+                <h3>Bacon-Wrapped Pesto Pork Tenderloin</h3>
+                <p>Bacon-wrapped pesto pork tenderloin is a savory and flavorful dish that combines the tenderness of pork with the smoky saltiness of bacon and the rich, herbaceous flavor of pesto.</p>
+            </div>
+            <div class="recipe">
+                <h3>Stuffed Chicken Rolls</h3>
+                <p>Stuffed chicken rolls are a delicious and savory dish typically made by flattening out a chicken breast, then filling it with a variety of ingredients, such as cheese, vegetables, herbs, or ham. </p>
+            </div>
+            <div class="recipe">
+                <h3>Sweet and Sour Pork</h3>
+                <p>Sweet and sour pork is a Chinese dish made with bite-sized pieces of pork.</p>
+            </div>
+            <div class="recipe">
+                <h3>Chow Mein</h3>
+                <p>Chow Mein is a Chinese dish made of egg noodles stir-fried with vegetables like cabbage, celery, carrots, and sometimes meat or seafood. </p>
+            </div>
+            <div class="recipe">
+                <h3>Fried Rice</h3>
+                <p>Fried rice is a dish made with cooked rice that has been stir-fried with a variety of ingredients such as vegetables, meats, and eggs.</p>
+            </div>
+            <div class="recipe">
+                <h3>Jamaican Beef Patties</h3>
+                <p>The patty is made with a savory filling of ground beef, onions, garlic, and a unique blend of Jamaican spices, including thyme, allspice, and scotch bonnet peppers.</p>
+            </div>
+            <div class="recipe">
+                <h3>Apple Pie</h3>
+                <p> It consists of a sweet, buttery crust made with flour, sugar, and butter. The filling is made with sliced or diced apples, brown sugar, white sugar, cinnamon, and nutmeg. </p>
+            </div>
+            <div class="recipe">
+                <h3>Moist Chocolate Cake</h3>
+                <p>Moist chocolate cake is a decadent dessert that is rich and velvety.</p>
+            </div>
+            <div class="recipe">
+                <h3>Rhubarb Custard Bars</h3>
+                <p>Rhubarb custard bars are a delightful dessert that combines the tartness of rhubarb with the rich creaminess of custard.</p>
+            </div>
+            <div class="recipe">
+                <h3>Caramel-Pecan Cheesecake Pie</h3>
+                <p>Caramel-pecan cheesecake pie is a decadent dessert made with a buttery, </p>
+            </div>
+        </section>
+        <section>
+            <h2>User Review</h2>
+            <div>
+                <blockquote>
+                    "I love this platform! It's so easy to find new recipes and share my own creations."
+                    <cite>- Topchef123</cite>
+                </blockquote>
+            </div>
+            <div>
+                <blockquote>
+                    "The recipes here are amazing! I've tried several and they've all turned out great."
+                    <cite>- FoodieGirl</cite>
+                </blockquote>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Recipe Sharing Platform</p>
+    </footer>
+</body>
+</html>

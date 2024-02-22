@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search - Recipe Sharing Platform</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #444;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        main {
+            padding: 20px;
+        }
+        section {
+            margin-bottom: 30px;
+        }
+        .recipe {
+            background-color: #fff;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Recipe Sharing Platform</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="browse_recipes.html">Browse Recipes</a></li>
+            <li><a href="search.html">Search</a></li>
+            <li><a href="submit_recipe.html">Submit Recipe</a></li>
+            <li><a href="user_profile.html">User Profile</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <h2>Search Results</h2>
+            <div class="recipe">
+                <h3>Chicken Parmesan</h3>
+                <p> skinless, boneless chicken breast halves
+
+                    salt and freshly ground black pepper to taste
+                    
+                    2 large eggs
+                    
+                    1 cup panko bread crumbs, or more as needed
+                    
+                    ¾ cup grated Parmesan cheese, divided
+                    
+                    2 tablespoons all-purpose flour, or more if needed
+                    
+                    ½ cup olive oil for frying, or as needed
+                    
+                    ½ cup prepared tomato sauce
+                    
+                    ¼ cup fresh mozzarella, cut into small cubes
+                    
+                    ¼ cup chopped fresh basil
+                    
+                    ½ cup grated provolone cheese
+                    
+                    2 teaspoons olive oil</p>
+            </div>
+            <div class="recipe">
+                <h3> Shrimp Scampi with Pasta</h3>
+                <p>1 (16 ounce) package linguine pasta
+
+                    2 tablespoons butter
+                    
+                    2 tablespoons extra-virgin olive oil
+                    
+                    2 shallots, finely diced
+                    
+                    2 cloves garlic, minced
+                    
+                    1 pinch red pepper flakes (Optional)
+                    
+                    1 pound shrimp, peeled and deveined
+                    
+                    1 pinch kosher salt and freshly ground pepper
+                    
+                    ½ cup dry white wine
+                    
+                    1 lemon, juiced
+                    
+                    2 tablespoons butter
+                    
+                    2 tablespoons extra-virgin olive oil
+                    
+                    ¼ cup finely chopped fresh parsley leaves
+                    
+                    1 teaspoon extra-virgin olive oil, or to taste</p>
+            </div>
+        </section
